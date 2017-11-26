@@ -1,0 +1,83 @@
+#header {
+  padding-top: 2em;
+}
+
+.active {
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 0.2em;
+  float: left;
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  font-family: Lato, sans-serif;
+  margin-left: 2.5em;
+  display: inline-block;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 64px;
+  max-height: 64px;
+  border-radius: 50%;
+}
+
+.online,
+.offline,
+.closed {
+  margin-top: 0.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  padding: 0.5em 0 0.5em 2em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  
+}
+
+.online:hover,
+.offline:hover,
+.closed:hover {
+  border-right: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.online {
+  border-left: 10px solid lightgreen;
+}
+
+.offline {
+  border-left: 10px solid red;
+}
+
+.closed {
+  border-left: 10px solid #555;
+}
+
+.on {
+  color: lightgreen;
+}
+
+.off {
+  color: darkred;
+}
+
+.user {
+  font-weight: 400;
+  overflow: hidden;
+}
+
+a:link,
+a:focus,
+a:hover,
+a:active,
+a:visited {
+  color: #000;
+}
